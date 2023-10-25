@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.background{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#cookie{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: .2s all;
+}
+#cookie-text{
+    color: #fff;
+}
+#cookie:hover{
+    transform: scale(1.1);
+    transition: .2s all;
+}
+.section1{
+    position: absolute;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    height: auto;
+    padding-top: 20vh;
+    border-right: 8px solid black;
+}
+.section1 h1{
+    margin-top: 10vh;
+}
+.section2{
+    position: absolute;
+    display: block;
+    left: 25%;
+    top: 0;
+    bottom: 0;
+    width: 55%;
+    height: auto;
+    background: url(../img/background2.jfif);
+    justify-content: center;
+}
+.section3{
+    position: absolute;
+    display: inline-flex;
+    left: 80%;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    background: url(../img/background3.jpg);
+    border-left: 8px solid black;
+}
+.s2text{
+    position: absolute;
+    background: #444;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 8px solid black;
+}
+.s3text{
+    position: absolute;
+    background: #444;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 8px solid black;
+}
+.farma1{
+    background: url(../img/farma1.png);
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    width: 100%;
+    height: 48%;
+    background-size: cover;
+    border-bottom: 8px solid black;
+}
+.farma2{
+    background: url(../img/farma2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 47%;
+    background-size: cover;
+}
+.button1{
+    margin-top: 12vh;
+    width: 299px;
+    height: 90px;
+}
+.button2{
+    margin-top: 2vh;
+    width: 299px;
+    height: 90px;
+}
+.button3{
+    margin-top: 2vh;
+    width: 299px;
+    height: 90px;
+}
+.buttons{
+    display: block;
+    position: relative;
+}
+.btn1l, .btn2l, .btn3l{
+    position: relative;
+    transition: .2s all;
+    cursor: pointer;
+}
+.btn1l h3{
+    position: absolute;
+    color: #fff;
+    bottom: 12%;
+    left: 32%;
+    margin: 0;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.btn2l h3{
+    position: absolute;
+    color: #fff;
+    bottom: 20%;
+    left: 32%;
+    margin: 0;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.btn3l h3{
+    position: absolute;
+    color: #fff;
+    bottom: 20%;
+    left: 32%;
+    margin: 0;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.btn1l:active{
+    transition: .2s all;
+    transform: scale(0.9);
+}
+.btn2l:active{
+    transition: .2s all;
+    transform: scale(0.9);
+}
+.btn3l:active{
+    transition: .2s all;
+    transform: scale(0.9);
+}
